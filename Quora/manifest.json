@@ -1,0 +1,13 @@
+{
+  "name": "Quora Whithout Login",
+  "version": "1.0",
+  "author": "Onkar Singh",
+  "description": "Browse Whithout Login By Onkar Singh",
+  "content_scripts": [
+    {
+      "matches": ["*://www.quora.com/*"],
+      "js": ["quora.js"]
+    }
+  ],
+  "manifest_version": 2
+}
